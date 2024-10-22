@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pizza Hut</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Foodie Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#restaurants">Restaurants</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to Foodie Hub</h2>
+            <p>Your one-stop destination for discovering the best restaurants in your area.</p>
+        </section>
+
+        <section id="restaurants">
+            <h2>Top Restaurants</h2>
+            <div class="restaurant-card" id="restaurant1">
+                <h3>Pizza Palace</h3>
+                <img src="pizza.img" alt="">
+                <p class="price">Rs.199</p>
+                <p>Delicious pizzas with fresh ingredients.</p>
+                <button onclick="showDetails('Pizza Palace', 'Best pizza in town!')">View Details</button>
+            </div>
+            <div class="restaurant-card" id="restaurant2">
+                <h3>Burger Bistro</h3>
+                <img src="burger.img" alt="">
+                <p class="price">Rs.299</p>
+                <p>Tasty burgers and fries.</p>
+                <button onclick="showDetails('Burger Bistro', 'Juicy burgers made to order!')">View Details</button>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are dedicated to helping you find the best food in your city.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Foodie Hub</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
